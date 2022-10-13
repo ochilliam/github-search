@@ -44,3 +44,18 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## How to run the app
+
+First, make sure you have a GitHub account and have generated a [personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) for authentication.
+
+## Limitations
+
+As per [documented by Github](api.github.com), we can use the search API to search:
+**Code** using code_search_url
+**Commit** using commit_search_url
+**Issues** using issue_search_url
+**Labels** using label_search_url
+**Repository** using repository_search_url
+**Topic** using topic_search_url
+**User** using user_search_url
